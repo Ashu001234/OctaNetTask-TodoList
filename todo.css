@@ -1,0 +1,88 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.main {
+    background-image: url("https://img.freepik.com/premium-vector/abstract-background-with-wavy-lines_961004-311.jpg?size=626&ext=jpg&ga=GA1.1.1224184972.1714953600&semt=ais");
+    background-size: cover;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container {
+    background-image: url("https://i.pinimg.com/originals/0d/8f/93/0d8f932d91f419efbd895cc1e616254e.jpg");
+    background-size: cover;
+    border-radius: 5px;
+    width: 400px;
+    min-height: 600px;
+    padding: 15px;
+}
+
+h2 {
+    text-transform: uppercase;
+    letter-spacing: 2.5px;
+    margin-bottom: 15px;
+}
+
+.input {
+    display: flex;
+    margin-bottom: 15px;
+    
+}
+
+#text-input-field {
+    width: 100%;
+    padding: 10px;
+    font-size: 25px;
+    font-weight: bold;
+    letter-spacing: 2px;
+    background-image:url("https://cdn.vectorstock.com/i/1000v/13/40/todo-list-seamless-pattern-universal-background-vector-7561340.jpg") ;
+   background-size: cover;
+   border-radius: 25px;
+}
+
+#button {
+    padding: 7px 9px;
+    /* border: none; */
+    background-image:url("https://cdn.vectorstock.com/i/1000v/13/40/todo-list-seamless-pattern-universal-background-vector-7561340.jpg") ;
+    background-size: cover;
+    border-radius: 25px;
+}
+
+.todos-container {
+    overflow-y: scroll;
+    /* background-image: url("https://i.pinimg.com/originals/0d/8f/93/0d8f932d91f419efbd895cc1e616254e.jpg"); */
+    /* min-height: 500px; */
+     /* background-color: aqua; */
+     background-size: cover;
+     /* font-size: 28px; */
+}
+
+.todo-item-container {
+    display: flex;
+    margin-bottom: 5px;
+}
+
+#todo-text {
+    width: 100%;
+    font-size: 30px;
+    letter-spacing: 1.5px;
+    user-select: none;
+    /* color: aliceblue; */
+}
+
+.line-through {
+    text-decoration: line-through;
+    color: blue;
+}
+
+#edit-button,
+#delete-button {
+    padding: 5px;
+    border: none;
+    background-color: transparent;
+}
